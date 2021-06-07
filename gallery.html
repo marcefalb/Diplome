@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/gallery.js"></script>
   <title>Галерея</title>
 </head>
 <body>
@@ -12,8 +13,10 @@
   <header>
 
     <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="index.html">ТЗВП</a>
+      </div>
       <div class="navbar__links">
-        <a href="index.html">Главная</a>
         <a href="#" class="link_active">Галерея</a>
         <a href="articles.html">Статьи</a>
         <a href="about.html">О нас</a>
@@ -30,43 +33,12 @@
 
     <h2 class="title">Галерея</h2>
 
-    <section class="gallery__content">
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
+    <section class="gallery">
+      <div class="gallery__content" id="gallery-container">
+        
       </div>
 
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
-      <div class="gallery__block">
-        <img src="images/TZWP.jpg" alt="">
-      </div>
+      <button class="gallery__more" id="gallery-more">Загрузить еще</button>
     </section>
 
   </main>

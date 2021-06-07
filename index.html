@@ -10,10 +10,12 @@
 <body>
   
   <header>
-
+    
     <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="#" class="link_active">ТЗВП</a>
+      </div>
       <div class="navbar__links">
-        <a href="#" class="link_active">Главная</a>
         <a href="gallery.html">Галерея</a>
         <a href="articles.html">Статьи</a>
         <a href="about.html">О нас</a>
@@ -23,15 +25,44 @@
         <a href="tel:+7 (482) 273-73-10">+7 (482) 273-73-10</a>
       </div>
     </nav>
-
+    
   </header>
   
-  <section class="main__header">
-    <h1>Тверской Завод Вторичных Полимеров</h1>
-  </section>
-
+  
   <main>
+    
+    <section class="main__header">
+      <h1>Тверской Завод Вторичных Полимеров</h1>
+    </section>
+    
+    <section class="main__slider">
+      <div class="slider">
+        
+        <div class="item">
+          <img src="images/main-1.jpg">
+        </div>
+        
+        <div class="item">
+          <img src="images/main-0.jpg">
+        </div>
+        
+        <div class="item">
+          <img src="images/main-2.jpg">
+        </div>
 
+        <div class="item">
+          <img src="images/main-3.jpg">
+        </div>
+
+        <div class="item">
+          <img src="images/main-4.jpg">
+        </div>
+        
+        <a class="previous" onclick="previousSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+      </div>
+    </section>
+    
     <article class="main__content">
       <p>ТЗВП имеет многолетний успешный опыт производства и сбыта полиэтиленовой продукции. Следующим этапом в развитии предприятия стало открытие и запуск цеха по переработке вторичного сырья. На сегодняшний день остро стоит вопрос о загрязнении окружающей среды, в том числе и полимерными отходами. 
       </p>
@@ -41,11 +72,11 @@
       <br>
       <p>Чем больше мы перерабатываем, тем чище города и улицы, леса и парки! Сохраним природу вместе!</p>
     </article>
-
+    
   </main>
-
+  
   <footer>
-
+    
     <div class="footer__links">
       <a href="#" class="link_active">Главная</a>
       <a href="gallery.html">Галерея</a>
@@ -54,8 +85,9 @@
       <a href="contacts.html">Контакты</a>
     </div>
     <div class="footer_copyright">ТЗВП 2021 copyright</div>
-
+    
   </footer>
-
+  
+  <script src="js/index.js"></script>
 </body>
 </html>
